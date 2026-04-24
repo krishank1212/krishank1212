@@ -1,16 +1,21 @@
-## Hi there 👋
+# Krishank
 
-<!--
-**krishank1212/krishank1212** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+I build financial models from first principles — not as a shortcut to answers, but to understand the machinery underneath.
 
-Here are some ideas to get you started:
+Currently exploring volatility dynamics, stochastic processes, and the gap between closed-form elegance and numerical reality.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## Projects
+
+**Volatility Forecasting** · [repo](https://github.com/krishank1212/volatility-forecasting)
+Empirical comparison of rolling historical volatility and EWMA estimators against 5-day realised vol on ~5300 SPY trading days (2005–2026). Strict causal implementation — no look-ahead. Evaluated with MSE. EWMA (λ=0.94) outperforms RHV(20) and RHV(60).
+
+**Monte Carlo Option Pricer** · [repo](https://github.com/krishank1212/asset-price-simulator)
+GBM simulation of European call pricing under Black–Scholes. Implemented antithetic variates (↓28% error) and control variates using S_T as the variate (↓38% error). Verified O(N^{-1/2}) convergence empirically across 500–100,000 paths.
+
+## Stack
+
+Python · NumPy · SciPy · pandas · matplotlib
+
+## Interests
+
+Stochastic calculus · volatility modelling · numerical methods · mathematical finance · measure theory
