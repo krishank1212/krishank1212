@@ -9,8 +9,8 @@ Currently exploring volatility dynamics, stochastic processes, and the gap betwe
 **Volatility Forecasting** · [repo](https://github.com/krishank1212/volatility-forecasting)
 Empirical comparison of rolling historical volatility and EWMA estimators against 5-day realised vol on ~5300 SPY trading days (2005–2026). Strict causal implementation — no look-ahead. Evaluated with MSE. EWMA (λ=0.94) outperforms RHV(20) and RHV(60).
 
-**Monte Carlo Option Pricer** · [repo](https://github.com/krishank1212/asset-price-simulator)
-GBM simulation of European call pricing under Black–Scholes. Implemented antithetic variates (↓28% error) and control variates using S_T as the variate (↓38% error). Verified O(N^{-1/2}) convergence empirically across 500–100,000 paths.
+**Monte Carlo Option Pricer with Greeks Dashboard** · [repo](https://github.com/krishank1212/options-greeks-dashboard)
+GBM simulation of European call pricing under Black–Scholes. Implemented antithetic variates (↓28% error) and control variates using $S_T$ as the variate (↓38% error). Verified $O(N^{-1/2})$ convergence empirically across 500–100,000 paths. Further implemented an interactive Streamlit dashboard to analyse Greeks (Delta, Gamma, Vega, Rho, Theta), using numerical methods.
 
 ## Stack
 
