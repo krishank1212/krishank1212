@@ -19,6 +19,9 @@ GBM simulation of European call pricing under Black–Scholes. Antithetic variat
 convergence across 500–100,000 paths. Greeks (Δ, Γ, ν, Θ, ρ) computed analytically 
 and via central finite differences, with an interactive Streamlit dashboard.
 
+**Pairs-trading Backtester** · [repo](https://github.com/krishank1212/pairs-trading-backtester)    
+Evaluation of a statistical pairs-trading strategy applied to BP and Shell (2005-present) across market regimes. Sub-period cointegration testing revealed the spread was mean-reverting only from 2010 to 2020 (p = 0.011). Paradoxically, the cointegrated period produced the lowest Sharpe ratio (0.164), against 0.206 (2005-2010) and 0.309 (2020-present).
+
 ## Stack
 Python · NumPy · SciPy · pandas · Matplotlib · Streamlit
 
